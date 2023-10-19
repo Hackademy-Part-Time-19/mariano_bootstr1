@@ -19,7 +19,8 @@ body {
     width: 82.5%;
     object-fit: contain;
     
-
+    z-index: -1;
+    
 }
 
 .prod1 {
@@ -62,13 +63,12 @@ body {
 
 .autunno-inverno {
 
-
     position: relative;
-    left: 190px;
-    bottom: 870px;
+    left: 53%;
+    top: 5%;
     color: white; 
-
-
+    z-index: 1;
+    background-color: black;
 
 }
 
@@ -77,10 +77,10 @@ body {
     
     position: relative;
     
-    left: 190px;
-    bottom: 870px;
-    color: white; 
-    background: linear-gradient(white, white);
+    left: 50%;
+    top: 5%;
+    color: black; 
+    background: linear-gradient(black, black);
     background-size: 200%;
     background-repeat: no-repeat;
     background-position: 0px 30px;
@@ -88,8 +88,9 @@ body {
     animation-timing-function: linear;
     animation-delay: 0ms;
     text-decoration: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid black;
     margin: 0px 10px;
+    z-index: 1;
 
 }   
 
@@ -98,9 +99,54 @@ body {
     
     
     background-position: 0px 0px;
-    color: black;
+    color: white;
     border: 0px
 
 
 
+}
+
+@media screen and (max-width: 1400px) { 
+
+    .video1{
+
+
+        opacity: 1;
+
+    }
+    
+    .autunno-inverno {
+
+        position: relative;
+        left: 53%;
+        top: 5%;
+        color: white; 
+        z-index: 1;
+        background-color: black;
+    
+    }
+    
+    .autunno-inverno-buttn {
+    
+        
+        position: relative;
+        
+        left: 50%;
+        top: 5%;
+        color: white; 
+        background-color: black;
+    }   
+    
+    :hover.autunno-inverno-buttn {
+    
+        
+        
+        background-position: 0px 0px;
+        color: white;
+        border: 0px
+    
+    
+    
+    }
+    
 }
