@@ -1,0 +1,56 @@
+
+body {
+
+    background-color: white;
+    color: black;
+
+
+}
+
+.video1 {
+
+    width: 82.5%;
+    object-fit: contain;
+    
+
+}
+
+.prod1 {
+
+    background-color: red;
+    color: white;
+
+    height: 400px;
+    background-image: url(./cq5dam.web.2526.2526.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -40px;
+
+}
+
+.prod2 {
+
+    background-color: blue;
+    color: white;
+
+    height: 400px;
+
+}
+
+.prod3 {
+
+    background-color: green;
+    color: white;
+
+    height: 400px;
+}
+
+.cont1  {
+
+    margin-top: 40px;
+    padding-left: 130px;
+    padding-right: 130px;
+    
+
+
+}
