@@ -24,40 +24,83 @@ body {
 
 .prod1 {
 
-    background-color: red;
+    
     color: white;
 
-    height: 400px;
+    height: 600px;
     background-image: url(./cq5dam.web.2526.2526.avif);
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0px -40px;
+    
 
 }
 
 .prod2 {
 
-    background-color: blue;
+    
     color: white;
 
-    height: 400px;
+    height: 600px;
+    background-image: url(./cq5dam.web.2526.2526.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -40px;
+    
 
 }
 
-.prod3 {
 
-    background-color: green;
-    color: white;
-
-    height: 400px;
-}
 
 .cont1  {
 
     margin-top: 40px;
-    padding-left: 130px;
-    padding-right: 130px;
     
+
+
+}
+
+.autunno-inverno {
+
+
+    position: relative;
+    left: 190px;
+    bottom: 870px;
+    color: white; 
+
+
+
+}
+
+.autunno-inverno-buttn {
+
+    
+    position: relative;
+    
+    left: 190px;
+    bottom: 870px;
+    color: white; 
+    background: linear-gradient(white, white);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 0px 30px;
+    transition: 0.4s;
+    animation-timing-function: linear;
+    animation-delay: 0ms;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin: 0px 10px;
+
+}   
+
+:hover.autunno-inverno-buttn {
+
+    
+    
+    background-position: 0px 0px;
+    color: black;
+    border: 0px
+
 
 
 }
