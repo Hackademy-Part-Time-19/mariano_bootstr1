@@ -7,6 +7,14 @@ body {
 
 }
 
+.navbar1 {
+
+    display: flex;
+    align-items: center;
+    
+
+}
+
 .video1 {
 
     width: 82.5%;
