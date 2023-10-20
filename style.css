@@ -144,17 +144,36 @@ body {
 @media screen and (max-width: 1400px) { 
 
      
+    .autunno-inverno {
+
+        position: absolute;
+        left: 23%;
+        top: 26%;
+        color: white; 
+        z-index: 1;
+        font-size: medium;
     
-    :hover.autunno-inverno-buttn {
+    }
+
+
+
+    .autunno-inverno-buttn2 {
+
     
+        position: absolute;
+        
+        top: 35%;
+        left: 66%;
+       
         
         
-        background-position: 0px 0px;
-        color: black;
-        border: 0px
+        font-size: smaller;
+    }
     
-    
-    
+    .autunno-inverno-buttn1 {
+
+        top: 35%;
+        font-size: smaller;
     }
     
 }
