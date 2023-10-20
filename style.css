@@ -11,7 +11,7 @@ body {
 
     
     border: 1px solid grey;
-
+    
 }
 
 .video1 {
@@ -34,6 +34,7 @@ body {
     background-size: 100%;
     background-position: 0px -40px;
     
+    border: 10px solid white;
 
 }
 
@@ -47,7 +48,8 @@ body {
     background-repeat: no-repeat;
     background-size: 100%;
     background-position: 0px -40px;
-    
+
+    border: 10px solid white;
 
 }
 
@@ -63,24 +65,24 @@ body {
 
 .autunno-inverno {
 
-    position: relative;
-    left: 53%;
-    top: 5%;
+    position: absolute;
+    left: 13%;
+    top: 20%;
     color: white; 
     z-index: 1;
-    background-color: black;
+    
 
 }
 
-.autunno-inverno-buttn {
+.autunno-inverno-buttn1 {
 
     
-    position: relative;
+    position: absolute;
     
-    left: 50%;
-    top: 5%;
-    color: black; 
-    background: linear-gradient(black, black);
+    left: 13%;
+    top: 30%;
+    color: white; 
+    background: linear-gradient(white, white);
     background-size: 200%;
     background-repeat: no-repeat;
     background-position: 0px 30px;
@@ -88,18 +90,51 @@ body {
     animation-timing-function: linear;
     animation-delay: 0ms;
     text-decoration: none;
-    border-bottom: 1px solid black;
-    margin: 0px 10px;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
     z-index: 1;
 
 }   
 
-:hover.autunno-inverno-buttn {
+.autunno-inverno-buttn2 {
+
+    
+    position: absolute;
+    
+    left: 17%;
+    top: 30%;
+    color: white; 
+    background: linear-gradient(white, white);
+    background-size: 200%;
+    background-repeat: no-repeat;
+    background-position: 0px 30px;
+    transition: 0.4s;
+    animation-timing-function: linear;
+    animation-delay: 0ms;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    margin-left: 10px;
+    z-index: 1;
+
+}   
+:hover.autunno-inverno-buttn1 {
 
     
     
     background-position: 0px 0px;
-    color: white;
+    color: black;
+    border: 0px
+
+
+
+}
+
+:hover.autunno-inverno-buttn2 {
+
+    
+    
+    background-position: 0px 0px;
+    color: black;
     border: 0px
 
 
@@ -108,41 +143,14 @@ body {
 
 @media screen and (max-width: 1400px) { 
 
-    .video1{
-
-
-        opacity: 1;
-
-    }
-    
-    .autunno-inverno {
-
-        position: relative;
-        left: 53%;
-        top: 5%;
-        color: white; 
-        z-index: 1;
-        background-color: black;
-    
-    }
-    
-    .autunno-inverno-buttn {
-    
-        
-        position: relative;
-        
-        left: 50%;
-        top: 5%;
-        color: white; 
-        background-color: black;
-    }   
+     
     
     :hover.autunno-inverno-buttn {
     
         
         
         background-position: 0px 0px;
-        color: white;
+        color: black;
         border: 0px
     
     
